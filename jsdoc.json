@@ -1,0 +1,18 @@
+{
+	"plugins": [],
+	"source": {
+		"include": ["src"],
+		"includePattern": ".js$",
+		"excludePattern": "(node_modules|docs|tema-docs)"
+	},
+	"templates": {
+		"cleverLinks": false,
+		"monospaceLinks": false
+	},
+	"opts": {
+		"destination": "./docs",
+		"recurse": true,
+		"tutorials": "./tutorials",
+		"readme": "./README.md"
+	}
+}
